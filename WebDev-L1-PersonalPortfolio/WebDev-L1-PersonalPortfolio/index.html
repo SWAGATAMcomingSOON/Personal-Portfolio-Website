@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Swagatam Das, Computer Science and Engineering student.">
+  <title>Swagatam Das | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Swagatam Das home"><span class="brand-mark">SD</span><span>swagatam<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> CSE STUDENT · ASPIRING DEVELOPER</p>
+        <h1>Hi, I'm <span class="accent-text">Swagatam</span>.<br>I build things for the web.</h1>
+        <p class="hero-description">A Computer Science student who enjoys turning ideas into clean, useful digital experiences — one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>BASED IN INDIA</span><span class="meta-line"></span><span>OPEN TO LEARNING & COLLABORATION</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative developer profile illustration">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="avatar">SD</div>
+          <div class="profile-card-name">Swagatam Das</div>
+          <div class="profile-card-role">Computer Science & Engineering</div>
+          <div class="profile-card-line"></div>
+          <div class="code-line"><span class="code-purple">const</span> <span class="code-blue">passion</span> = <span class="code-green">"building"</span>;</div>
+          <div class="code-line"><span class="code-purple">while</span> (learning) {'{'} keepGoing(); {'}'}</div>
+          <div class="profile-tags"><span>Problem solving</span><span>Curiosity</span></div>
+        </div>
+        <span class="floating-chip chip-top">{"< />"} HTML + CSS</span>
+        <span class="floating-chip chip-bottom">✦ Always learning</span>
+      </div>
+      <a href="#about" class="scroll-cue"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container about-layout">
+        <div>
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>Curious mind.<br><span class="muted-text">Builder's mindset.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="large-copy">I'm a Computer Science and Engineering student focused on growing my skills through hands-on projects and consistent practice.</p>
+          <p>I enjoy exploring web development, learning how software works, and finding practical ways to solve everyday problems. My goal is to keep improving, collaborate with others, and create work that is simple, thoughtful, and useful.</p>
+          <a class="text-link" href="#contact">Have a project in mind? <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / TOOLKIT</p><h2>Skills I'm growing.</h2></div>
+        <p class="section-intro">A practical toolkit built through coursework, experimentation, and small projects.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-number">01</span><div class="skill-icon">⌘</div><h3>Programming</h3><p>Python · C · Problem solving</p><div class="skill-bar"><span style="width:68%"></span></div><small>LEARNING & PRACTISING</small></article>
+        <article class="skill-card"><span class="skill-number">02</span><div class="skill-icon">⌘</div><h3>Web Development</h3><p>HTML5 · CSS3 · Responsive UI</p><div class="skill-bar"><span style="width:72%"></span></div><small>LEARNING & PRACTISING</small></article>
+        <article class="skill-card"><span class="skill-number">03</span><div class="skill-icon">◈</div><h3>Core CS</h3><p>Data structures · DBMS basics</p><div class="skill-bar"><span style="width:55%"></span></div><small>BUILDING FOUNDATIONS</small></article>
+        <article class="skill-card"><span class="skill-number">04</span><div class="skill-icon">✳</div><h3>Tools</h3><p>Git · GitHub · VS Code</p><div class="skill-bar"><span style="width:60%"></span></div><small>LEARNING & PRACTISING</small></article>
+      </div>
+      <p class="note">Personalise this section before publishing: adjust the skills and progress indicators to match your real experience.</p>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects in progress.</h2></div>
+          <p class="section-intro">Small steps, real practice. These project cards are ready for your own GitHub links.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-art art-lid"><span class="art-label">HARDWARE + SOFTWARE</span><div class="lid-symbol">⌁<span>ALERT</span></div><div class="art-orbit"></div></div>
+            <div class="project-info"><div class="project-type">01 — STUDENT PROJECT</div><h3>LidAlert System</h3><p>A concept for a practical alert system, exploring how hardware and software can work together to solve a real-world problem.</p><div class="tag-list"><span>IoT concept</span><span>System design</span></div><a href="https://github.com/" class="project-link" target="_blank" rel="noreferrer">Add GitHub repository <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-web"><span class="art-label">WEB DESIGN</span><div class="browser-window"><div class="browser-dots"><i></i><i></i><i></i></div><div class="browser-hero"></div><div class="browser-row"><b></b><b></b><b></b></div></div><span class="web-caption">A landing page concept</span></div>
+            <div class="project-info"><div class="project-type">02 — WEB DEVELOPMENT</div><h3>Travel Landing Page</h3><p>A responsive travel-inspired landing page built to practise layouts, visual hierarchy, and mobile-friendly design.</p><div class="tag-list"><span>HTML5</span><span>CSS3</span><span>Responsive</span></div><a href="https://github.com/" class="project-link" target="_blank" rel="noreferrer">Add GitHub repository <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="note">The project descriptions are starter copy. Replace them with accurate details and link each card to its actual repository.</p>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel">
+        <div class="contact-decoration">✳</div>
+        <p class="eyebrow">04 / CONTACT</p>
+        <h2>Let's make something<br><span class="muted-text">meaningful.</span></h2>
+        <p class="contact-copy">Have an idea, an opportunity, or just want to connect? I'd be happy to hear from you.</p>
+        <a class="button button-primary" href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a>
+        <div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">SD</span><span>swagatam<span class="brand-dot">.</span></span></a><p>Designed and built with curiosity.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><span class="copyright">© <span id="year">2026</span> SWAGATAM DAS</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
